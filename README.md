@@ -20,14 +20,22 @@ A **100% Local** and secure Python-based AI assistant that allows you to search 
 
 
 <img width="1088" height="960" alt="Gemini_Generated_Image_pqold3pqold3pqol" src="https://github.com/user-attachments/assets/cf52751a-657f-468c-8ad7-fa3ed192efed" />
+<img width="625" height="470" alt="1" src="https://github.com/user-attachments/assets/836cb214-48f6-41a2-b0f5-29102359d2ef" />
+<img width="655" height="661" alt="2" src="https://github.com/user-attachments/assets/d0a22929-636a-4c4c-ad4d-e73d289f4ea5" />
+<img width="725" height="631" alt="3" src="https://github.com/user-attachments/assets/e6f127eb-6d76-456c-a833-4e5cfac92b0f" />
+<img width="863" height="801" alt="4" src="https://github.com/user-attachments/assets/71b8a23d-c1c7-48ad-b34b-d888aa2b94a3" />
 
 
----
 ## 📸 Project Screenshots & Demo
 
 ### 1. Bot Initialization & Listening
+Terminal showing the bot successfully starting and waiting for Gmail triggers.
 
-*Terminal showing the bot successfully starting and waiting for Gmail triggers.*
+### 2. Remote File Search & Email Delivery
+
+Proof of the bot finding the file locally and sending it back via encrypted email.
+
+
 
 ### 2. Remote File Search & Email Delivery
 
