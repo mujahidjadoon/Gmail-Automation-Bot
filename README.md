@@ -26,9 +26,9 @@ A **100% Local** and secure Python-based AI assistant that allows you to search 
 ## 📸 Project Screenshots & Demo
 
 ### 1. Bot Initialization & Listening
-![System Start](scan_demo.png)
+
 *Terminal showing the bot successfully starting and waiting for Gmail triggers.*
 
 ### 2. Remote File Search & Email Delivery
-![Email Proof](bot_reply.png)
+
 *Proof of the bot finding the file locally and sending it back via encrypted email.*
