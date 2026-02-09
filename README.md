@@ -17,3 +17,18 @@ A **100% Local** and secure Python-based AI assistant that allows you to search 
    Execute `python file_manager.py` to scan your local drives.
 4. **Start Assistant:**
    Run `python gmail_controller.py` to begin the remote listener.
+
+
+<img width="1088" height="960" alt="Gemini_Generated_Image_pqold3pqold3pqol" src="https://github.com/user-attachments/assets/cf52751a-657f-468c-8ad7-fa3ed192efed" />
+
+
+---
+## 📸 Project Screenshots & Demo
+
+### 1. Bot Initialization & Listening
+![System Start](scan_demo.png)
+*Terminal showing the bot successfully starting and waiting for Gmail triggers.*
+
+### 2. Remote File Search & Email Delivery
+![Email Proof](bot_reply.png)
+*Proof of the bot finding the file locally and sending it back via encrypted email.*
