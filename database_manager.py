@@ -40,7 +40,7 @@ class MujahidVault:
         return self.fernet.decrypt(encrypted_data).decode()
 
     def save_path(self, name, path):
-        # Data ko silo mein mehfooz karna
+        
         conn = sqlite3.connect(self.db_name)
         cursor = conn.cursor()
         enc_path = self.encrypt_data(path)
