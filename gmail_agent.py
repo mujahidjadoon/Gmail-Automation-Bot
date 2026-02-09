@@ -4,12 +4,12 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
-# Permissions: Gmail parhne aur bhejne ki ijazat
+
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 
 def get_gmail_service():
     creds = None
-    # Token file check karna (Ye pehli baar run karne par khud banegi)
+   
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
             creds = pickle.load(token)
@@ -18,11 +18,11 @@ def get_gmail_service():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            # Ye aapki credentials.json file uthayega
+            
             flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
             creds = flow.run_local_server(port=0)
         
-        # Token save karna taake naye email ka access lock ho jaye
+        
         with open('token.pickle', 'wb') as token:
             pickle.dump(creds, token)
 
@@ -32,6 +32,6 @@ if __name__ == "__main__":
     print("MUJAHID BOT: Opening Browser for Secure Login...")
     try:
         service = get_gmail_service()
-        print("MUJAHID BOT: Successfully linked to your NEW Work Email!")
+        print("Gmail BOT: Successfully linked to your NEW Work Email!")
     except Exception as e:
         print(f"Error: {e}")
