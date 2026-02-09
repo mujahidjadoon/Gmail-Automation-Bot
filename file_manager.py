@@ -4,7 +4,7 @@ from database_manager import MujahidVault
 
 class FileManager:
     def __init__(self):
-        # MujahidVault class ko initialize kar rahe hain
+      
         self.vault = MujahidVault()
         self.target_drive = "D:\\"
 
