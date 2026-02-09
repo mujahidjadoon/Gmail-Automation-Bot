@@ -1,17 +1,20 @@
-# Secret Database (Aapki 4 lakh files ka data)
-*.db
-mujahid_vault.db
-
-# Google API Keys aur Tokens (Aapki personal access)
+# --- Security & Keys ---
+master.key
 credentials.json
 token.pickle
+.env
 
-# Python ki temporary files
+# --- Databases ---
+*.db
+mujahid_vault.db
+database/
+
+# --- Python & IDE ---
 __pycache__/
 *.pyc
 venv/
-.env
-
-# Local settings
 .idea/
 .vscode/
+
+# --- Log Files ---
+*.log
