@@ -1,5 +1,5 @@
 import os
-from database_manager import MujahidVault  # Aap ki file mein class ka naam MujahidVault hai
+from database_manager import MujahidVault  
 
 
 class FileManager:
